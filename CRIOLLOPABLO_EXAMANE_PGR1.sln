@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRIOLLOPABLO_EXAMANE_PGR1", "CRIOLLOPABLO_EXAMANE_PGR1\CRIOLLOPABLO_EXAMANE_PGR1.csproj", "{0F613882-CF4C-477F-9CB3-3D0B63C6FDBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F613882-CF4C-477F-9CB3-3D0B63C6FDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F613882-CF4C-477F-9CB3-3D0B63C6FDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F613882-CF4C-477F-9CB3-3D0B63C6FDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F613882-CF4C-477F-9CB3-3D0B63C6FDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AA3D69A-9E88-48F9-B920-CD650E0142FD}
+	EndGlobalSection
+EndGlobal
