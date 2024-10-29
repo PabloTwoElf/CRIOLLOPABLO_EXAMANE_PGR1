@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using CRIOLLOPABLO_EXAMANE_PGR1.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<CRIOLLOPABLO_EXAMANE_PGR1Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CRIOLLOPABLO_EXAMANE_PGR1Context") ?? throw new InvalidOperationException("Connection string 'CRIOLLOPABLO_EXAMANE_PGR1Context' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
